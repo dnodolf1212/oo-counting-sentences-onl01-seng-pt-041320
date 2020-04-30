@@ -18,7 +18,7 @@ class String
   end
 
   def count_sentences
-    self.split(
+    new_string = self.squeeze
     
     binding.pry
 
