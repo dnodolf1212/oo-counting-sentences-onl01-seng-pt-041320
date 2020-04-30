@@ -20,9 +20,10 @@ class String
   def count_sentences
     new_string = self.squeeze(".")
     new_string = self.squeeze("!")
-    new_string.split(/[$.|?|!])
+    new_string.split(/[$.|?|!]/).count 
+  end
     
-    binding.pry
+    
 
   end
 end
