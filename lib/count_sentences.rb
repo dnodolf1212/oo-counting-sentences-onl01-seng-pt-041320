@@ -19,7 +19,8 @@ class String
 
   def count_sentences
     new_string = self.squeeze(".")
-    new_string = self.
+    new_string = self.squeeze("!")
+    
     
     binding.pry
 
